@@ -59,7 +59,7 @@ td{
 	border-bottom:none;
 	border-top:none;
 	box-sizing:border-box;
-	text-align:none;
+	text-align:left;
 	width: 100%;
 }
 table tbody td:nth-child(1):before{
@@ -108,4 +108,5 @@ tr{
 }
 tbody tr td:nth-of-type(5){
 		border-bottom:none;
+}
 }
