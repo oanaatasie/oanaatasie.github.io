@@ -35,6 +35,18 @@ h1 span{
 		filter:blur(0px);
 	}
 }
+@media screen and (max-width: 700px) and (max-height: 1000px){
+	
+h1{
+	width: 97.5%;
+	height:4vh;
+	padding-left:10px;
+	letter-spacing:0.25em;
+	font-size:0.9em;
+}
+
+}
+
 @media screen and (max-width: 450px) and (max-height: 700px){
 	
 h1{
@@ -46,3 +58,4 @@ h1{
 }
 
 }
+

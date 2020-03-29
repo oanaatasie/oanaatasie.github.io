@@ -25,6 +25,24 @@
 .b>a{
 	color:white;
 }
+
+@media screen and (max-width: 750px) and (max-height: 1000px){
+.imagine {
+	display: block;
+	
+}
+section{
+	width: 100%;
+}
+
+.varp1{
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+}
+
 @media screen and (max-width: 450px) and (max-height: 700px){
 .imagine {
 	display: block;
@@ -33,4 +51,11 @@
 section{
 	width: 100%;
 }
+.varp1{
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
 }
+}
+
