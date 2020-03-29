@@ -38,17 +38,18 @@ thead tr {
 
 @media screen and (max-width: 450px) and (max-height: 700px){
 
-table{
-	
-	padding-left:10px;
-}
 table,tr{
 	border:none;
 	padding:0;
 	margin:0;
 	display:block;
-	
 } 
+table{ 
+	margin-left: auto;
+    margin-right: auto;
+	width: 75.5%;
+	padding-left:70px;
+}
 thead{
     display:none;
 }
@@ -103,6 +104,7 @@ td:before{
 }
 tr{
 	border-bottom: 3px solid white;
+	width: 100%;
 }
 tbody tr td:nth-of-type(5){
 		border-bottom:none;
