@@ -1,0 +1,90 @@
+/* Stilizare elemente specifice pagina In curand */
+
+.imgsoon{
+	padding-top:40px;
+	margin-right:100px;
+	padding-left:150px;
+	width: 275px ;
+	height:400px;
+	
+}
+.soon{
+	display: flex;
+	flex-wrap:wrap;
+	margin-right:20vh;
+}
+
+.imfsoon{
+	padding-top:125px;
+	color:white;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:21px;
+	border-left-style: solid;
+	border-left-color:white;
+	border-left-width:5px;
+	padding-left:60px;
+	margin-top:40px;
+}
+
+.lp{
+	font-family: Tahoma, Geneva, sans-serif;
+	color:white;
+	padding-top:20px;
+	font-size:19px;
+}
+
+.incurand{
+	padding-top:100px;
+	text-align:center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	text-transform: capitalize;
+	
+}
+
+@media screen and (max-width: 450px) and (max-height: 700px){
+.soon{
+	display:block;
+	margin-right:0px;
+}
+.imgsoon{
+	padding-right:0px;
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+.imfsoon{
+	padding-top:20px;
+	color:white;
+	width:56vh;
+	border-left-style: none;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	text-align: center;
+	margin-top:0px;
+	padding-left:0px;
+	font-size:15px;
+}
+.soon:nth-of-type(5)>.imfsoon{
+	border-bottom-style: none;
+}
+
+.lp{
+	text-align: center;
+	font-size:15px;
+}
+.incurand{
+	padding-top:20px;
+	font-size: 20px;
+	padding-bottom:20px;
+}
+}

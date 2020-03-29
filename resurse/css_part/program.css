@@ -1,0 +1,133 @@
+/* Stilizare elemente specifice pagina Program */
+
+
+#mainprogram{
+	background-image:url("../imagini/bktprog.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.progf{
+	
+	font-size: 16px;
+	box-sizing: border-box;
+	font-weight: 700;
+	display: flex;
+	flex-wrap:wrap;
+	padding-bottom:30px;
+
+}
+.rating_icon{
+	height: 24px;
+	vertical-align: text-bottom;
+	display:block;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.movie-info{
+	font-family: Georgia, serif;
+	font-weight: 300;
+	font-size: 14px;
+	display: inline;
+	color:white;
+}
+.imgpr{
+	
+	padding-right:100px;
+	padding-left:150px;
+	width: 250px ;
+	height:370px;
+}
+
+.film_det{
+	display:block;
+}
+
+.ore{
+	padding-top:15px;
+	display:block;
+}
+
+.film_det>a{
+	display:inline-block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+	color: white;
+	padding-top: 85px;
+	
+}
+.ore>a{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	color: white;
+	width:80px;
+	height:40px;
+	display:inline-block;
+	border-style: double;
+	text-decoration:none;
+	background-color:black;
+	text-align:center;
+	line-height:35px;
+}	
+
+.zi{
+	vertical-align:middle;
+	font-family: "Bad Script", cursive;
+    font-size: 25px;
+    color: white;
+	text-align:center;
+	padding-bottom:15px;
+	background-color:black;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color:white;
+	height:26px;
+	margin-top:15px;
+	margin-bottom:30px;
+}
+
+button{
+	height:25px;
+	width:12.5%;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+#blu{
+	margin-left:50px;
+}
+
+@media screen and (max-width: 450px) and (max-height: 700px){
+
+.progf{
+	width:51.2vh;
+	display: block;
+	padding-bottom:60px;
+	
+}
+.film_det{
+	display:block;
+	text-align:center;
+}
+.rating_icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#blu{
+	margin-left:15px;
+}	
+.imgpr{
+	padding-right:0px;
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zi{
+	width:56vh;
+}
+.film_det>a{
+	padding-top: 10px;	
+}
+}

@@ -1,0 +1,97 @@
+/* Stilizare elemente specifice paginilor filmelor */
+
+.pagd{
+	display:flex;
+	flex-wrap:wrap;
+}
+.det{
+	width:60%;
+	color:white;
+	padding-left:60px;
+	padding-top:30px;
+	line-height:35px;
+	font-family: "Annie Use Your Telescope", cursive;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	border-left-style: solid;
+	border-left-color:white;
+	border-left-width:5px;
+	margin-top:10px;
+}
+	
+.imf{
+	padding-top:10px;
+	width: 275px ;
+	height:400px; 
+	padding-left:50px;
+	padding-right:60px;
+}
+
+.desc{
+	color:white;
+	padding-top: 20px;
+	margin-left:15px;
+	margin-right:15px;
+	
+}
+.desc>p{
+	text-indent:50px;
+	font-family: "EB Garamond", serif;
+	font-size:17px;
+	text-align:justify;
+	
+}
+
+
+.linkr{
+	font-family: "Arbutus Slab", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 2px;
+	color:white;
+}
+
+	
+.tit_pag{
+	padding-top:10px;
+	font-family: "Bad Script", cursive;
+    font-size: 17px;
+    color: white;
+	padding-left:50px;
+}
+
+@media screen and (max-width: 450px) and (max-height: 700px){
+.pagd{
+	display:block;
+}
+.det{
+	width:51.5vh;
+	padding-left:30px;
+	border-top-style: solid;
+	border-top-color:white;
+	border-top-width:5px;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	border-left-style: none;
+	padding-bottom:30px;
+}
+.imf{
+	width: 250px ;
+	height:370px;
+	padding-left:0px;
+	padding-right:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc>p{
+	text-indent:25px;
+}
+.tit_pag{
+	padding-left:25px;
+}
+}
