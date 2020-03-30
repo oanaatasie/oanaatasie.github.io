@@ -13,7 +13,7 @@ table{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100vh;
+	width:65%;
 	}
 
 #tab{
@@ -36,7 +36,7 @@ thead tr {
   background-color: #FF8C00;
 }
 
-@media screen and (max-width: 750px) and (max-height: 1000px){
+@media screen and (max-width: 500px){
 
 table,tr{
 	border:none;
@@ -45,9 +45,7 @@ table,tr{
 	display:block;
 } 
 table{ 
-	margin-left: auto;
-    margin-right: auto;
-	width: 90%;
+	width: auto;
 	padding-left:50px;
 }
 thead{
@@ -60,7 +58,7 @@ td{
 	border-top:none;
 	box-sizing:border-box;
 	text-align:left;
-	width: 100%;
+	width: auto;
 }
 table tbody td:nth-child(1):before{
 	content:"Nume: ";
@@ -104,16 +102,14 @@ td:before{
 }
 tr{
 	border-bottom: 3px solid white;
-	width: 100%;
+	width: auto;
 }
 tbody tr td:nth-of-type(5){
 		border-bottom:none;
 }
 }
 
-
-
-@media screen and (max-width: 450px) and (max-height: 700px){
+@media screen and (max-width: 700px) and (min-width: 500px){
 
 table,tr{
 	border:none;
@@ -123,7 +119,8 @@ table,tr{
 } 
 table{ 
 	width: auto;
-	padding-left:50px;
+	padding-left:60px;
+	width: 75vw;
 }
 thead{
     display:none;
@@ -135,7 +132,7 @@ td{
 	border-top:none;
 	box-sizing:border-box;
 	text-align:left;
-	width: auto;
+	width: 75vw;
 }
 table tbody td:nth-child(1):before{
 	content:"Nume: ";
@@ -172,7 +169,7 @@ table tr:last-child td:last-child{
 }
 td:before{
 	background:#FFA07A;
-	width:15vh;
+	width:30vh;
 	margin-right:0.5em;
 	float:left;
   	line-height:100%;

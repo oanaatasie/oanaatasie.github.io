@@ -98,45 +98,7 @@ button{
 	margin-left:50px;
 }
 
-@media screen and (max-width: 750px) and (max-height: 1000px){
-
-#mainprogram{
-	width: 100%;
-}
-.progf{
-	width:100%;
-	display: block;
-	padding-bottom:60px;
-	
-}
-.film_det{
-	display:block;
-	text-align:center;
-}
-.rating_icon{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#blu{
-	margin-left:15px;
-}	
-.imgpr{
-	padding-right:0px;
-	padding-left:0px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.zi{
-	width:100%;
-}
-.film_det>a{
-	padding-top: 10px;	
-}
-}
-
-@media screen and (max-width: 450px) and (max-height: 700px){
+@media screen and (max-width: 500px){
 
 #mainprogram{
 	width: auto;
@@ -174,5 +136,53 @@ button{
 }
 }
 
+@media screen and (max-width: 700px) and (min-width: 500px){
 
+#mainprogram{
+	width: auto;
+}
+.progf{
+	width: auto;
+	display: block;
+	padding-bottom:60px;
+	float:none;
+}
+.film_det{
+	display:block;
+	text-align:center;
+	
+}
+.rating_icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#blu{
+	margin-left:20px;
+}	
+.imgpr{
+	padding-right:0px;
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 300px ;
+	height:390px;
+}
+.zi{
+	width:auto;
+}
+.film_det>a{
+	padding-top: 10px;	
+}
+}
 
+@media screen and (max-width: 800px) and (min-width: 701px){
+
+.imgpr{
+	
+	padding-right:50px;
+	padding-left:100px;
+}
+
+}
