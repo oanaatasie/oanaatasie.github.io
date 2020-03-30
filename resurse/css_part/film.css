@@ -130,7 +130,7 @@
 }
 }
 
-@media screen and (max-width: 400px) and (max-height: 700px){
+@media screen and (max-width: 450px) and (max-height: 700px){
 .pagd{
 	display:block;
 }

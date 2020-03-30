@@ -226,7 +226,7 @@ ul.menu>li, ul.menu>li>ul.submenu>li{
 
 }
 
-@media screen and (max-width: 400px) and (max-height: 700px){
+@media screen and (max-width: 450px) and (max-height: 700px){
 
 body,header{
 	width:100%;
