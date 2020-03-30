@@ -47,10 +47,10 @@ h1{
 
 }
 
-@media screen and (max-width: 450px) and (max-height: 700px){
+@media screen and (max-width: 400px) and (max-height: 700px){
 	
 h1{
-	width: 96%;
+	width: auto;
 	height:4vh;
 	padding-left:10px;
 	letter-spacing:0.25em;

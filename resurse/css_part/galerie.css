@@ -51,6 +51,7 @@
 	color:white;
 	text-align:center;
 }
+
 @media screen and (max-width: 700px) and (max-height: 1000px){
 
 #gr{
@@ -90,7 +91,7 @@
 }
 }
 
-@media screen and (max-width: 450px) and (max-height: 700px){
+@media screen and (max-width: 400px) and (max-height: 700px){
 
 #gr{
 	display: grid;

@@ -130,12 +130,12 @@
 }
 }
 
-@media screen and (max-width: 450px) and (max-height: 700px){
+@media screen and (max-width: 400px) and (max-height: 700px){
 .pagd{
 	display:block;
 }
 .det{
-	width:91.5%;
+	width:auto;
 	padding-left:30px;
 	border-top-style: solid;
 	border-top-color:white;
