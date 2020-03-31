@@ -39,7 +39,7 @@ footer>section ul>li>a{
 
 body {
   background-color: black;
-  background-image: url("../imagini/background.jpg");
+  background-image: url("../IMAGINI/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin:0;
@@ -137,12 +137,12 @@ ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
 }
 
 ul.menu>li:nth-of-type(even) a{
-	background-image: url("../imagini/bktmenu.jpg");
+	background-image: url("../IMAGINI/bktmenu.jpg");
 	
 }
 
 ul.menu>li:nth-of-type(odd) a{
-	background-image: url("../imagini/bktmenu2.jpg");
+	background-image: url("../IMAGINI/bktmenu2.jpg");
 }
 
 ul.menu>li>ul.submenu{
@@ -171,8 +171,8 @@ ul.menu>li:hover{
 }
 
 ul.menu>li:nth-of-type(even):hover ul.submenu{
-	background-image: url("../imagini/bktmenu.jpg");
+	background-image: url("../IMAGINI/bktmenu.jpg");
 }
 ul.menu>li:nth-of-type(odd):hover ul.submenu{
-	background-image: url("../imagini/bktmenu2.jpg");
+	background-image: url("../IMAGINI/bktmenu2.jpg");
 }
