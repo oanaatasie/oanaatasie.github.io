@@ -1,0 +1,10 @@
+/* Stilizare elemente specifice pagina Program pt o latime de maxim 800px */
+
+@media screen and (max-width: 800px) and (min-width: 701px){
+
+.imgpr{
+	padding-right:50px;
+	padding-left:100px;
+}
+
+}

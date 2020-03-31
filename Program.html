@@ -7,29 +7,34 @@
 		<meta name="description" content="Pagina cuprinde programul după care se desfășoară filmele în cinema Black Box Cinema.">
 		<meta name="author" content="Black Box Cinema" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" type="image/x-icon" href="resurse/imagini/BBC.ico"/>
-		<link rel="stylesheet" type="text/css" href="resurse/css_part/general.css"/>
-		<link rel="stylesheet" type="text/css" href="resurse/css_part/program.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="resurse/IMAGINI/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/stil_program.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/CSS-media/stil_program_500.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/CSS-media/stil_program_700.css"/>
+		<link rel="stylesheet" type="text/css" href="resurse/CSS/CSS-media/stil_program_800.css"/>
 	</head>
 	<body>
 		<header>
 			<nav id="meniu_sus">
 				<ul class="menu">
-					<li> <a class="l2" id="principal" href="index.html"><i lang="en">HOME</i></a>
+					<li> <a href="index.html"><i lang="en">HOME</i></a>
 						<ul class="submenu">
-							<li><a class="l2" id="prog" href="Program.html">PROGRAM</a></li>
-							<li><a class="l2" id="curand" href="In_curand.html">ÎN CURÂND</a></li>
-							<li><a class="l2" id="meni" href="Meniu.html">MENIU</a></li>
+							<li><a href="Program.html">PROGRAM</a></li>
+							<li><a href="In_curand.html">ÎN CURÂND</a></li>
+							<li><a href="Meniu.html">MENIU</a></li>
 						</ul>
 					</li>
-					<li ><a class="l2" id="rezervare" href="Rezervare_bilet.html">REZERVARE</a></li>
-					<li><a class="l2" href="Despre_noi.html">DESPRE NOI</a>
+					<li ><a href="Rezervare_bilet.html">REZERVARE</a></li>
+					<li><a href="Despre_noi.html">DESPRE NOI</a>
 						<ul class="submenu">
-							<li><a class="l2" id="gal" href="Galerie.html">GALERIE</a></li>
+							<li><a href="Galerie.html">GALERIE</a></li>
 						</ul>
 					</li>
-					<li><a class="l2" id="oferte" href="Promotii.html">PROMOȚII</a></li>
-					<li><a class="l2" id="cont" href="Intra_in_cont.html">INTRĂ ÎN CONT</a></li>
+					<li><a href="Promotii.html">PROMOȚII</a></li>
+					<li><a href="Intra_in_cont.html">INTRĂ ÎN CONT</a></li>
 				</ul>
 			</nav>
 			<h1 class="titm"> Black Box Cinema </h1>
@@ -37,20 +42,20 @@
 		<main id="mainprogram">
 			<section>
 				<h2 class="tit">PROGRAM BLACK BOX CINEMA</h2>
-				<button type="button" data-automation-id="day_1" aria-label="Luni" onclick="location.href='#luni';" id="blu">Lu</button>
-				<button type="button" data-automation-id="day_2" aria-label="Marți" onclick="location.href='#marti';" id="bma">Ma</button>
-				<button type="button" data-automation-id="day_3" aria-label="Miercuri" onclick="location.href='#miercuri';" id="bmi">Mi</button>
-				<button type="button" data-automation-id="day_4" aria-label="Joi" onclick="location.href='#joi';" id="bjo">Jo</button>
-				<button type="button" data-automation-id="day_5" aria-label="Vineri" onclick="location.href='#vineri';" id="bvi">Vi</button>
-				<button type="button" data-automation-id="day_6" aria-label="Sâmbătă" onclick="location.href='#sambata';" id="bsa">Sâ</button>
-				<button type="button" data-automation-id="day_7" aria-label="Duminică" onclick="location.href='#duminica';" id="bdu">Du</button>
+				<button type="button" id="blu">Lu</button>
+				<button type="button" id="bma">Ma</button>
+				<button type="button" id="bmi">Mi</button>
+				<button type="button" id="bjo">Jo</button>
+				<button type="button" id="bvi">Vi</button>
+				<button type="button" id="bsa">Sâ</button>
+				<button type="button" id="bdu">Du</button>
 				<section id="luni">
 					<h3 class="zi">LUNI</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/10_zile_fara_mama.jpg" alt="10 zile fară mama"> 
+						<img class="imgpr" src="resurse/IMAGINI/10_zile_fara_mama.jpg" alt="10 zile fară mama"> 
 						<div class="film_det">
 							<a href="10_Zile_fara_mama.html" title="Click aici să vezi pagina filmului &quot;10 zile fară mama&quot;">10 zile fară mama</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 98 min / Comedie</span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;10 zile fară mama&quot; la ora 12:00">12:00</a>
@@ -59,10 +64,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Omul_invizibil.jpg" alt="Omul invizibil" > 
+						<img class="imgpr" src="resurse/IMAGINI/Omul_invizibil.jpg" alt="Omul invizibil" > 
 						<div class="film_det">
 							<a href="Omul_invizibil.html" title="Click aici să vezi  pagina filmului &quot;Omul invizibil&quot;">Omul invizibil</a>
-							<img src="resurse/imagini/N_15.jpg" alt="Nerecomandat copiilor sub 15 ani." class="rating_icon">
+							<img src="resurse/IMAGINI/N_15.jpg" alt="Nerecomandat copiilor sub 15 ani." class="rating_icon">
 							<span class="movie-info"> 125 min / Horror, Ficțiune, Thriller </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Omul invizibil&quot; la ora 14:00">14:00</a>
@@ -71,10 +76,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Richard_Jewell.jpg" alt="Richard Jewell" >
+						<img class="imgpr" src="resurse/IMAGINI/Richard_Jewell.jpg" alt="Richard Jewell" >
 						<div class="film_det"> 
 							<a href="Richard_Jewell.html" title="Click aici să vezi pagina filmului &quot;Richard Jewell&quot;">Richard Jewell</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 131 min / Dramă </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Richard Jewell&quot; la ora 10:30">10:30</a>
@@ -86,10 +91,10 @@
 				<section id="marti">
 					<h3 class="zi">MARȚI</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/10_zile_fara_mama.jpg" alt="10 zile fară mama"> 
+						<img class="imgpr" src="resurse/IMAGINI/10_zile_fara_mama.jpg" alt="10 zile fară mama"> 
 						<div class="film_det">
 							<a href="10_Zile_fara_mama.html" title="Click aici să vezi  pagina filmului &quot;10 zile fară mama&quot;">10 zile fară mama</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 98 min / Comedie</span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;10 zile fară mama&quot; la ora 14:30">14:30</a>
@@ -98,10 +103,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
+						<img class="imgpr" src="resurse/IMAGINI/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
 						<div class="film_det">
 							<a href="Spioni_deghizati.html" title="Click aici să vezi  pagina filmului &quot;Spioni deghizați&quot;">Spioni deghizați</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Acțiune, Aventură, Animație </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Spioni deghizați&quot; la ora 10:00">10:00</a>
@@ -110,10 +115,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Sonic_The_Hedgehog.jpg" alt="Sonic The Hedgehog"> 
+						<img class="imgpr" src="resurse/IMAGINI/Sonic_The_Hedgehog.jpg" alt="Sonic The Hedgehog"> 
 						<div class="film_det">
 							<a href="Sonic_The_Hedgehog.html" title="Click aici să vezi  pagina filmului &quot;Sonic The Hedgehog&quot;">Sonic The Hedgehog</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 100 min / Acțiune, Aventură, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Sonic The Hedgehog&quot; la ora 12:45">12:45</a>
@@ -125,10 +130,10 @@
 				<section id="miercuri">
 					<h3 class="zi">MIERCURI</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/1917.jpg" alt="1917: Speranță și moarte"> 
+						<img class="imgpr" src="resurse/IMAGINI/1917.jpg" alt="1917: Speranță și moarte"> 
 						<div class="film_det">
 							<a href="1917.html" title="Click aici să vezi  pagina filmului &quot;1917: Speranță și moarte&quot;">1917: Speranță și moarte</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon"> 
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon"> 
 							<span class="movie-info"> 119 min / Dramă, Război </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;1917: Speranță și moarte&quot; la ora 11:30">11:30</a>
@@ -137,10 +142,10 @@
 						</div>
 					</div>	
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Sonic_The_Hedgehog.jpg" alt="Sonic The Hedgehog"> 
+						<img class="imgpr" src="resurse/IMAGINI/Sonic_The_Hedgehog.jpg" alt="Sonic The Hedgehog"> 
 						<div class="film_det">
 							<a href="Sonic_The_Hedgehog.html" title="Click aici să vezi  pagina filmului &quot;Sonic The Hedgehog&quot;">Sonic The Hedgehog</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 100 min / Acțiune, Aventură, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Sonic The Hedgehog&quot; la ora 14:25">14:25</a>
@@ -149,10 +154,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Dolittle.jpg" alt="Dolittle"> 
+						<img class="imgpr" src="resurse/IMAGINI/Dolittle.jpg" alt="Dolittle"> 
 						<div class="film_det">
 							<a href="Dolittle.html" title="Click aici să vezi  pagina filmului &quot;Dolittle&quot;">Dolittle</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Aventură, Comedie, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Dolittle&quot; la ora 12:00">12:00</a>
@@ -164,10 +169,10 @@
 				<section id="joi">
 					<h3 class="zi">JOI</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Little_Joe.jpg" alt="Little Joe"> 
+						<img class="imgpr" src="resurse/IMAGINI/Little_Joe.jpg" alt="Little Joe"> 
 						<div class="film_det">
 							<a href="Little_Joe.html" title="Click aici să vezi  pagina filmului &quot;Little Joe&quot;">Little Joe</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 105 min / Dramă, Ficțiune </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Little Joe&quot; la ora 10:30">10:30</a>
@@ -176,10 +181,10 @@
 						</div>
 					</div>	
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Fiicele_doctorului_March.jpg" alt="Fiicele doctorului March"> 
+						<img class="imgpr" src="resurse/IMAGINI/Fiicele_doctorului_March.jpg" alt="Fiicele doctorului March"> 
 						<div class="film_det">
 							<a href="Fiicele_doctorului_March.html" title="Click aici să vezi  pagina filmului &quot;Fiicele doctorului March&quot;">Fiicele doctorului March</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon"> 
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon"> 
 							<span class="movie-info"> 135 min / Dramă, Romantic </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Fiicele doctorului March&quot; la ora 12:00">12:00</a>
@@ -188,10 +193,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/The_Call_of_the_Wild.jpg" alt="Chemarea străbunilor"> 
+						<img class="imgpr" src="resurse/IMAGINI/The_Call_of_the_Wild.jpg" alt="Chemarea străbunilor"> 
 						<div class="film_det">
 							<a href="Chemarea_strabunilor.html" title="Click aici să vezi  pagina filmului &quot;Chemarea străbunilor&quot;">Chemarea străbunilor</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 105 min / Aventură, Dramă, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Chemarea străbunilor&quot; la ora 13:50">13:50</a>
@@ -203,10 +208,10 @@
 				<section id="vineri">
 					<h3 class="zi">VINERI</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Omul_invizibil.jpg" alt="Omul invizibil"> 
+						<img class="imgpr" src="resurse/IMAGINI/Omul_invizibil.jpg" alt="Omul invizibil"> 
 						<div class="film_det">
 							<a href="Omul_invizibil.html" title="Click aici să vezi  pagina filmului &quot;Omul invizibil&quot;">Omul invizibil</a>
-							<img src="resurse/imagini/N_15.jpg" alt="Nerecomandat copiilor sub 15 ani." class="rating_icon">
+							<img src="resurse/IMAGINI/N_15.jpg" alt="Nerecomandat copiilor sub 15 ani." class="rating_icon">
 							<span class="movie-info"> 125 min / Horror, Ficțiune, Thriller </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Omul invizibil&quot; la ora 17:00">17:00</a>
@@ -215,10 +220,10 @@
 						</div>
 					</div>	
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
+						<img class="imgpr" src="resurse/IMAGINI/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
 						<div class="film_det">
 							<a href="Spioni_deghizati.html" title="Click aici să vezi  pagina filmului &quot;Spioni deghizați&quot;">Spioni deghizați</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Acțiune, Aventură, Animație </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Spioni deghizați&quot; la ora 10:00">10:00</a>
@@ -227,10 +232,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Dolittle.jpg" alt="Dolittle" > 
+						<img class="imgpr" src="resurse/IMAGINI/Dolittle.jpg" alt="Dolittle" > 
 						<div class="film_det">
 							<a href="Dolittle.html" title="Click aici să vezi  pagina filmului &quot;Dolittle&quot;">Dolittle</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Aventură, Comedie, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Dolittle&quot; la ora 12:00">12:00</a>
@@ -242,10 +247,10 @@
 				<section id="sambata">
 					<h3 class="zi">SÂMBĂTĂ</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Fiicele_doctorului_March.jpg" alt="Fiicele doctorului March"> 
+						<img class="imgpr" src="resurse/IMAGINI/Fiicele_doctorului_March.jpg" alt="Fiicele doctorului March"> 
 						<div class="film_det">
 							<a href="Fiicele_doctorului_March.html" title="Click aici să vezi  pagina filmului &quot;Fiicele doctorului March&quot;">Fiicele doctorului March</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon"> 
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon"> 
 							<span class="movie-info"> 135 min / Dramă, Romantic </span>
 							<div class="ore">	
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Fiicele doctorului March&quot; la ora 13:30">13:30</a>
@@ -254,10 +259,10 @@
 						</div>
 					</div>	
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Richard_Jewell.jpg" alt="Richard Jewell"> 
+						<img class="imgpr" src="resurse/IMAGINI/Richard_Jewell.jpg" alt="Richard Jewell"> 
 						<div class="film_det">
 							<a href="Richard_Jewell.html" title="Click aici să vezi  pagina filmului &quot;Richard Jewell&quot;">Richard Jewell</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 131 min / Dramă </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Richard Jewell&quot; la ora 11:30">11:30</a>
@@ -266,10 +271,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/1917.jpg" alt="1917: Speranță și moarte" > 
+						<img class="imgpr" src="resurse/IMAGINI/1917.jpg" alt="1917: Speranță și moarte" > 
 						<div class="film_det">
 							<a href="1917.html" title="Click aici să vezi  pagina filmului &quot;1917: Speranță și moarte&quot;">1917: Speranță și moarte</a>
-							<img src="resurse/imagini/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
+							<img src="resurse/IMAGINI/AP_12.jpg" alt="Accesul în sala al copiilor sub 12 ani este permis doar cu acordul sau împreună cu un părinte/tutore." class="rating_icon">
 							<span class="movie-info"> 119 min / Dramă, Război </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;1917: Speranță și moarte&quot; la ora 17:00">17:00</a>
@@ -281,10 +286,10 @@
 				<section id="duminica">
 					<h3 class="zi">DUMINICĂ</h3>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Dolittle.jpg" alt="Dolittle"> 
+						<img class="imgpr" src="resurse/IMAGINI/Dolittle.jpg" alt="Dolittle"> 
 						<div class="film_det">
 							<a href="Dolittle.html" title="Click aici să vezi  pagina filmului &quot;Dolittle&quot;">Dolittle</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Aventură, Comedie, Familie </span>
 							<div class="ore">	
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Dolittle&quot; la ora 10:00">10:00</a>
@@ -293,10 +298,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
+						<img class="imgpr" src="resurse/IMAGINI/Spioni_deghizati.jpg" alt="Spioni deghizați"> 
 						<div class="film_det">
 							<a href="Spioni_deghizati.html" title="Click aici să vezi  pagina filmului &quot;Spioni deghizați&quot;">Spioni deghizați</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 102 min / Acțiune, Aventură, Animație </span>
 							<div class="ore">	
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Spioni deghizați&quot; la ora 12:00">12:00</a>
@@ -305,10 +310,10 @@
 						</div>
 					</div>
 					<div class="progf">
-						<img class="imgpr" src="resurse/imagini/The_Call_of_the_Wild.jpg" alt="Chemarea străbunilor"> 
+						<img class="imgpr" src="resurse/IMAGINI/The_Call_of_the_Wild.jpg" alt="Chemarea străbunilor"> 
 						<div class="film_det">
 							<a href="Chemarea_strabunilor.html" title="Click aici să vezi  pagina filmului &quot;Chemarea străbunilor&quot;">Chemarea străbunilor</a>
-							<img src="resurse/imagini/AG.jpg" alt="Audiență generală." class="rating_icon">
+							<img src="resurse/IMAGINI/AG.jpg" alt="Audiență generală." class="rating_icon">
 							<span class="movie-info"> 105 min / Aventură, Dramă, Familie </span>
 							<div class="ore">
 								<a href="Rezervare_bilet.html" title="Click aici să rezervi bilet pentru filmul &quot;Chemarea străbunilor&quot; la ora 15:30">15:30</a>
@@ -323,10 +328,10 @@
 			<section>
 				<h2 class="tit"><i lang="en">QUICK LINKS</i></h2>
 				<ul>
-					<li><a class="l2" href="index.html">HOME</a></li>
-					<li><a class="l2" href="Program.html">PROGRAM</a></li>
-					<li><a class="l2" href="In_curand.html">ÎN CURÂND</a></li>
-					<li><a class="l2" href="Despre_noi.html">DESPRE NOI</a></li>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Program.html">PROGRAM</a></li>
+					<li><a href="In_curand.html">ÎN CURÂND</a></li>
+					<li><a href="Despre_noi.html">DESPRE NOI</a></li>
 				</ul>
 			</section>
 		</footer>

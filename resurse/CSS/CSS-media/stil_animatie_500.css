@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px){
+	
+h1{
+	width: auto;
+	height:4vh;
+	padding-left:10px;
+	letter-spacing:0.25em;
+	font-size:0.9em;
+}
+
+}
