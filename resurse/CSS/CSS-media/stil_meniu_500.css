@@ -27,6 +27,7 @@ td{
 	width: auto;
 }
 
+
 table tbody td:nth-child(1):before{
 	content:"Nume: ";
 }
@@ -80,5 +81,6 @@ tr{
 tbody tr td:nth-of-type(5){
 		border-bottom:none;
 }
+
 
 }

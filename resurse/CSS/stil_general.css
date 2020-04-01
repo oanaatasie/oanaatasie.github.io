@@ -41,7 +41,7 @@ body {
   background-color: black;
   background-image: url("../IMAGINI/background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
   margin:0;
 }
 
@@ -106,7 +106,7 @@ h1{
 nav{
 	width:100%;
 	position:fixed;
-	z-index:5;
+	z-index:15;
 	}
 
 ul.menu>li, ul.menu>li>ul.submenu>li{ 

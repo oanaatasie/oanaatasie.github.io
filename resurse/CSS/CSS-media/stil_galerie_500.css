@@ -39,4 +39,21 @@
 #gr figure{
 	transition: none;
 }
+
+#container_animatie{
+  display:none;
+}
+
+#sectiune_animatie{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+
+#sectiune_animatie:after{
+	content:"Animația nu se poate afișa pe această dimensiune. Încercați pe o dimeniune mai mare.";
+	font-size: 13px;
+	color:white;
+}
+
+
 }

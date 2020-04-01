@@ -6,6 +6,7 @@
 	grid-gap:4px;
 	margin-right:15px;
 	margin-left:15px;
+	margin-bottom:50px;
 }
 
 .ag{
@@ -58,4 +59,76 @@ figure{
 	box-shadow: white 0px 0px 7px;
 }
 
+#container_animatie{
+	position:relative;
+	border:1px solid white;
+	overflow:hidden;
+	width:600px;
+	height:400px;
+	box-sizing:content-box;
+	margin-left:50px;
+	margin-top:50px;
+}
 
+#animat figure{	
+	position:absolute;
+	left:0;
+	top:0;
+	animation-name:gal_animatie;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-duration:24s;
+}
+
+#animat figcaption{
+	position:absolute;
+	bottom:0;
+	background-color:#A9A9A9;
+	width:100%;
+	height:1.5rem;
+	text-align:center;
+	font-weight:bold;
+}
+
+#animat figure:nth-of-type(6){
+	animation-delay:0s;
+}
+#animat figure:nth-of-type(5){
+	animation-delay:4s;
+}
+#animat figure:nth-of-type(4){
+	animation-delay:8s;
+}
+#animat figure:nth-of-type(3){
+	animation-delay:12s;
+}
+#animat figure:nth-of-type(2){
+	animation-delay:16s;
+}
+#animat figure:nth-of-type(1){
+	animation-delay:20s;
+}
+
+
+@keyframes gal_animatie{ 
+	0% {z-index:10;
+		opacity:1;
+		}
+	8% {opacity:1;
+		clip:rect(0px,600px,500px,0px);
+		} 
+	16%{opacity:1;
+		clip:rect(150px,300px,250px,300px);
+	    }  
+	16.66%{z-index:10;
+		   opacity:0;
+		   clip:rect(200px,400px,300px,200px);
+		   } 
+	16.667%{z-index:-1;
+			}
+	83.33999999%{opacity:1;
+				clip: rect(0x,600px,500px,0px);
+				z-index:-1;}	
+	83.34%{z-index:0;}
+	100%{opacity:1;z-index:0;}
+}
