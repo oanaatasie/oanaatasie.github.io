@@ -20,7 +20,7 @@
 	flex-wrap:wrap;
 	flex-direction: column;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size:21px;
+	font-size:18px;
 	border-left-style: solid;
 	border-left-color:white;
 	border-left-width:5px;
@@ -32,14 +32,14 @@
 	font-family: Tahoma, Geneva, sans-serif;
 	color:white;
 	padding-top:20px;
-	font-size:19px;
+	font-size:17px;
 }
 
 .incurand{
 	padding-top:100px;
 	text-align:center;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 25px;
+	font-size: 21px;
 	color:white;
 	font-weight: bold;
 	text-decoration: none;
