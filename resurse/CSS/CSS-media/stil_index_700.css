@@ -5,12 +5,12 @@
 .imagine {
 	display: block;
 	text-align:center;
+	
 }
 #container_home{
 	
 	display:grid;
 	grid-template-columns: auto auto;
-	grid-gap:0px;
 
 }
 #container_home>.imagine:nth-child(1){
@@ -26,10 +26,10 @@
 	grid-area: 2/2/3/3;
 }
 .varp1{
-	width: 220px ;
-	height:330px;	
-	padding-left:15px;
+	height:55vw;	
+	padding-left:4vw;
 	display: block;
+	width:40vw;
 }
 
 }

@@ -127,7 +127,7 @@ figure{
 	16.667%{z-index:-1;
 			}
 	83.33999999%{opacity:1;
-				clip: rect(0x,600px,500px,0px);
+				clip: rect(0px,600px,500px,0px);
 				z-index:-1;}	
 	83.34%{z-index:0;}
 	100%{opacity:1;z-index:0;}
