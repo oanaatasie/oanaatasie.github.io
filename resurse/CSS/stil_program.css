@@ -97,4 +97,9 @@ button{
 
 #blu{
 	margin-left:50px;
+	
+}
+button>a{
+	text-decoration:none;
+	color:black;
 }
